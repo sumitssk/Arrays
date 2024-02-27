@@ -11,7 +11,7 @@ int MaximumSumOfKel(vector<int> &arr,int k)
     {
         sum+=arr[i];
     }
-    int maxi_sum=INT_MIN;
+    int maxi_sum=sum;
     for(int i=k;i<n;i++)
     {
         sum=sum+(arr[i]-arr[i-k]);
